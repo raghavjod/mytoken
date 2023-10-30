@@ -19,9 +19,10 @@ Select Solidity Compiler Version: In Remix, make sure to select the Solidity com
 ## Using the Contract
 You can interact with the deployed contract using Remix's user interface. The contract provides two main functions, mint and burn, as described in the code comments.
 
-Mint Tokens:
+### Mint Tokens:
 
 Call the mint function by providing an Ethereum address and a value to mint new tokens.
-Burn Tokens:
+
+### Burn Tokens:
 
 Call the burn function by providing an Ethereum address and a value to burn (destroy) tokens. This function has a conditional check to ensure that the sender has enough tokens to burn.
